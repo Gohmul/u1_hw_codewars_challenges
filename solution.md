@@ -1,6 +1,7 @@
 ## Return Negative
 
 ```js
+
 function makeNegative(num) {
     return -Math.abs(num);
 }
@@ -11,6 +12,7 @@ function makeNegative(num) {
 ## Sum of Positive
 
 ```js
+
 function positiveSum(arr) {
   let sum = 0;
   for(var index = 0; index < arr.length; index++) {
@@ -26,6 +28,7 @@ function positiveSum(arr) {
 ## Function 2
 
 ```js
+
 function square(number) {
   return number ** 2
 }
@@ -35,6 +38,7 @@ function square(number) {
 ## Sum Arrays
 
 ```js
+
 // Sum Numbers
 function sum (numbers) {
     "use strict";
@@ -46,6 +50,7 @@ function sum (numbers) {
 ## Reversed Strings
 
 ```js
+
 function solution(str) {
   const reverseStr = str.split('').reverse('').join('')
   return reverseStr
